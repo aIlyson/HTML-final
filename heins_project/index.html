@@ -32,9 +32,21 @@
                 <img src="/assents/heinz_sprite.png" alt="ImgNotFound">
             </button>
 
-            <div class="open_menu">
-                
+            <nav class="menu">
+                <a href="#" class="open_menu"><i class="fa fa-close"></i></a>
+
+                <div class="menulinks">
+                <ul>
+                    <li><a href="#">LOJA OFICIAL</a></li>
+                    <li><a href="#">NOSSOS PRODUTOS</a></li>
+                    <li><a href="#">CULTIVADO DE VERDADE</a></li>
+                    <li><a href="#">NOSSA HISTÓRIA</a></li>
+                    <li><a href="#">AVISO AO CONSUMIDOR</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                    <li><a href="#">HEINZZOLA</a></li>
+                </ul>
             </div>
+            </nav>
 
             <div class="icons">
                 <a href="#">
@@ -164,6 +176,22 @@
             });
         });
     </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+    $(".bar_menu").click(
+        function(){
+            $(".menu").show();
+        }
+    )
+
+    $(".open_menu").click(
+        function(){
+            $(".menu").hide();
+        }
+    )
+</script>
+
 </body>
 
 </html>
