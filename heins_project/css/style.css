@@ -1,6 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@200;300&display=swap');
-
-    :root {
+        :root {
         --bs-white: #fff;
         --bs-red: #a6192e;
         --bs-black: #000;
@@ -92,6 +90,19 @@
         height: 35px;
         margin: 30px;
         cursor: pointer;
+        background-color: transparent !important;
+        border: none !important;
+    }
+
+    .bar_menu img{
+        width: 40px;
+    }
+
+    .open_menu{
+        display: ;
+        width: 35px;
+        height: 35px;
+        margin: 30px;
     }
 
     .sticker {
