@@ -41,6 +41,8 @@ header {
     margin-bottom: 100px;
 }
 
+
+
 .background {
     position: absolute;
     right: 0;
@@ -324,8 +326,8 @@ footer {
 }
 
 .colum_1 a {
-    text-decoration: none;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
     font-size: 17px;
     font-weight: 600;
     color: var(--bs-black);
@@ -356,6 +358,7 @@ footer {
     cursor: pointer;
 }
 
+    /* dispositivos menores, --> para corrigir */
 @media screen and (max-width: 1630px){
 
     .background {
@@ -541,7 +544,6 @@ footer {
         margin: auto;
         margin-left: 75px;
     }
-
 
     .logo_footer {
         display: inline-block;
